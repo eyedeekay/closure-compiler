@@ -1,0 +1,2 @@
+#! /usr/bin/env sh
+docker run --rm -ti --name fixjsstyle --workdir /source --volume `pwd`:/source closure-linter fixjsstyle $@
